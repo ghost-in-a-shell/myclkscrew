@@ -34,7 +34,7 @@ def adb_exec_cmd_one(device_id, cmd_str, adb_proc='adb'):
 
 
 device_id='ZX1G42BS93'
-cmdstr1='taskset 1 /system/bin/insmod /data/local/tmp/glitchmin.ko PARAM_iter=7 PARAM_volt=1055000 PARAM_gdelay=5 PARAM_delaypre=8000 PARAM_gval=0xd0'
+cmdstr1='taskset 1 /system/bin/insmod /data/local/tmp/glitchmin.ko PARAM_iter=6 PARAM_volt=1055000 PARAM_gdelay=5 PARAM_delaypre=8000 PARAM_gval=0xd0'
 ret,out=adb_exec_cmd_one(device_id, cmdstr1, adb_proc='adb')
 print ret
 print out
