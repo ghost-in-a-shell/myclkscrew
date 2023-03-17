@@ -9,6 +9,8 @@ cmdstr2_full = ['adb', '-s', gu.device_id, 'shell', 'su', '-c', '\"%s\"' % cmdst
 kproc = subprocess.Popen(cmdstr2_full,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 while True:
 	nextline = kproc.stdout.readline()
+	if nextline == '':
+		time.sleep(10)
 	gu.write_log(gu.log_filename,nextline.strip()+'\n')
 	print nextline.strip()
 

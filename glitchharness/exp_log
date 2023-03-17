@@ -1,0 +1,486 @@
+
+
+
+
+
+
+
+
+temp39000
+<6>[25467.194961] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25467.196702] glitchmin: | ,slave,PASS
+<6>[25469.204416] glitchmin: ------[ END ]------
+temp38900
+<6>[25475.484974] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25475.486854] glitchmin: | ,slave,PASS
+<6>[25477.494369] glitchmin: ------[ END ]------
+temp38700
+<6>[25483.784385] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25483.785251] glitchmin: | ,slave,PASS
+<6>[25485.794136] glitchmin: ------[ END ]------
+temp38400
+<6>[25492.084974] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25492.086840] glitchmin: | ,slave,PASS
+<6>[25494.094410] glitchmin: ------[ END ]------
+temp38200
+<6>[25500.384931] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25500.386688] glitchmin: | ,slave,PASS
+<6>[25502.394409] glitchmin: ------[ END ]------
+temp38000
+<6>[25508.684945] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25508.686740] glitchmin: | ,slave,PASS
+<6>[25510.694379] glitchmin: ------[ END ]------
+temp37800
+<6>[25516.984923] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25516.986766] glitchmin: | ,slave,FAIL
+<6>[25516.986830] glitchmin: | ,slave,EXPT_TEST,0,c44dc735f6682a261a0b8545a62dd13df4c646a5ede482cef858925baa1811fa0284766b3d1d2b4d6893df4d9c045efe3e84d8c5d03631b25420f1231d8211e2
+<6>[25516.986895] glitchmin: | ,slave,EXPT_TEST,1,322eb7eb524da6c1e8fb4c3ae4a8f5ca13d1e0591f5c64e8e711b3726215cec59ed0ebc6bb042b917d44528887915fdf764df691d183e16f31ba1ed94c84b476
+<6>[25516.986961] glitchmin: | ,slave,EXPT_TEST,2,e74b488463e85551022021763af35a64ddf105c1530ef3fcf7e54233e5d3a4747bbb17328a63e6e3384ac25ee80054bd566855e2eb59a2fd168d3643e44851ac
+<6>[25516.987024] glitchmin: | ,slave,EXPT_TEST,3,f0d118fb03c73ebc099b4add59c39367d6c91f498d8d607af2e57cc73e3b5718435a81123f080267726a2a9c1cc94b9c6bb6817427b85d8c670f9a53e44851ac
+<6>[25518.994376] glitchmin: ------[ END ]------
+temp37600
+<6>[25525.284945] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25525.286818] glitchmin: | ,slave,PASS
+<6>[25527.294414] glitchmin: ------[ END ]------
+temp37300
+<6>[25533.584928] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25533.586800] glitchmin: | ,slave,PASS
+<6>[25535.594391] glitchmin: ------[ END ]------
+temp37200
+<6>[25541.884939] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25541.886673] glitchmin: | ,slave,PASS
+<6>[25543.894410] glitchmin: ------[ END ]------
+temp37000
+<6>[25550.184952] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25550.186727] glitchmin: | ,slave,PASS
+<6>[25552.194378] glitchmin: ------[ END ]------
+temp36900
+<6>[25558.484967] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25558.487124] glitchmin: | ,slave,PASS
+<6>[25560.494383] glitchmin: ------[ END ]------
+temp36700
+<6>[25566.784948] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25566.786722] glitchmin: | ,slave,PASS
+<6>[25568.794380] glitchmin: ------[ END ]------
+temp36600
+<6>[25575.084948] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25575.086689] glitchmin: | ,slave,PASS
+<6>[25577.094406] glitchmin: ------[ END ]------
+temp36400
+<6>[25583.384975] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25583.386743] glitchmin: | ,slave,PASS
+<6>[25585.394382] glitchmin: ------[ END ]------
+temp36200
+<6>[25591.684929] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25591.686677] glitchmin: | ,slave,PASS
+<6>[25593.694378] glitchmin: ------[ END ]------
+temp36000
+<6>[25599.984941] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25599.986756] glitchmin: | ,slave,PASS
+<6>[25601.994378] glitchmin: ------[ END ]------
+temp35900
+<6>[25608.284939] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25608.286696] glitchmin: | ,slave,PASS
+<6>[25610.294171] glitchmin: ------[ END ]------
+temp35800
+<6>[25616.584766] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25616.586533] glitchmin: | ,slave,PASS
+<6>[25618.594389] glitchmin: ------[ END ]------
+temp35600
+<6>[25624.874954] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25624.876704] glitchmin: | ,slave,PASS
+<6>[25626.884395] glitchmin: ------[ END ]------
+temp35500
+<6>[25633.174924] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25633.176671] glitchmin: | ,slave,PASS
+<6>[25635.184379] glitchmin: ------[ END ]------
+temp35400
+<6>[25641.474948] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25641.476768] glitchmin: | ,slave,PASS
+<6>[25643.484373] glitchmin: ------[ END ]------
+temp35300
+<6>[25649.764932] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25649.766677] glitchmin: | ,slave,PASS
+<6>[25651.774384] glitchmin: ------[ END ]------
+temp35100
+<6>[25658.064899] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25658.066650] glitchmin: | ,slave,PASS
+<6>[25660.074410] glitchmin: ------[ END ]------
+temp35000
+<6>[25666.364899] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25666.366663] glitchmin: | ,slave,PASS
+<6>[25668.384375] glitchmin: ------[ END ]------
+temp34900
+<6>[25674.684956] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25674.686736] glitchmin: | ,slave,PASS
+<6>[25676.694413] glitchmin: ------[ END ]------
+temp34800
+<6>[25682.984922] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25682.986608] glitchmin: | ,slave,PASS
+<6>[25684.994372] glitchmin: ------[ END ]------
+temp34700
+<6>[25691.274950] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25691.276755] glitchmin: | ,slave,PASS
+<6>[25693.284395] glitchmin: ------[ END ]------
+temp34500
+<6>[25699.574934] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25699.576677] glitchmin: | ,slave,PASS
+<6>[25701.584280] glitchmin: ------[ END ]------
+temp34400
+<6>[25707.854926] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25707.856677] glitchmin: | ,slave,PASS
+<6>[25709.864378] glitchmin: ------[ END ]------
+temp34300
+<6>[25716.144959] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25716.146836] glitchmin: | ,slave,PASS
+<6>[25718.154385] glitchmin: ------[ END ]------
+temp34200
+<6>[25724.444185] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25724.445456] glitchmin: | ,slave,PASS
+<6>[25726.454423] glitchmin: ------[ END ]------
+temp34100
+<6>[25732.744920] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25732.746713] glitchmin: | ,slave,FAIL
+<6>[25732.746763] glitchmin: | ,slave,EXPT_TEST,0,c44dc735f6682a261a0b8545a62dd13df4c646a5ede482cef858925baa1811fa0284766b3d1d2b4d6893df4d9c045efe3e84d8c5d03631b25420f1231d8211e2
+<6>[25732.746952] glitchmin: | ,slave,EXPT_TEST,1,322eb7eb524da6c1e8fb4c3ae4a8f5ca13d1e0591f5c64e8e711b3726215cec59ed0ebc6bb042b917d44528887915fdf764df691d183e16f31ba1ed94c84b476
+<6>[25732.747017] glitchmin: | ,slave,EXPT_TEST,2,e74b488463e85551022021763af35a64ddf105c1530ef3fcf7e54233e5d3a4747bbb17328a63e6e3384ac25ee80054bd566855e2eb59a2fd168d3643e44851ac
+<6>[25732.747085] glitchmin: | ,slave,EXPT_TEST,3,f0fbfbfb03c73ebc099b4add59c39367d6c91f498d8d607af2e57cc73e3b5718435a81123f080267726a2a9c1cc94b9c6bb6817427b85d8c670f9a53a777511b
+<6>[25734.754382] glitchmin: ------[ END ]------
+temp34000
+<6>[25741.044955] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25741.046733] glitchmin: | ,slave,PASS
+<6>[25743.054402] glitchmin: ------[ END ]------
+temp33900
+<6>[25749.344938] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25749.346723] glitchmin: | ,slave,PASS
+<6>[25751.354410] glitchmin: ------[ END ]------
+temp33800
+<6>[25757.644940] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25757.646669] glitchmin: | ,slave,PASS
+<6>[25759.654390] glitchmin: ------[ END ]------
+temp33700
+<6>[25765.934949] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25765.936680] glitchmin: | ,slave,PASS
+<6>[25767.944373] glitchmin: ------[ END ]------
+temp33600
+<6>[25774.234642] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25774.235832] glitchmin: | ,slave,PASS
+<6>[25776.244384] glitchmin: ------[ END ]------
+temp33500
+<6>[25782.534920] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25782.536670] glitchmin: | ,slave,PASS
+<6>[25784.544395] glitchmin: ------[ END ]------
+temp33400
+<6>[25790.814948] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25790.816728] glitchmin: | ,slave,PASS
+<6>[25792.824380] glitchmin: ------[ END ]------
+temp33300
+<6>[25799.114800] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25799.116575] glitchmin: | ,slave,PASS
+<6>[25801.124377] glitchmin: ------[ END ]------
+temp33200
+<6>[25807.414906] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25807.416677] glitchmin: | ,slave,PASS
+<6>[25809.424376] glitchmin: ------[ END ]------
+temp33100
+<6>[25815.724949] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25815.726689] glitchmin: | ,slave,PASS
+<6>[25817.734408] glitchmin: ------[ END ]------
+temp33000
+<6>[25824.024926] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25824.026664] glitchmin: | ,slave,PASS
+<6>[25826.034385] glitchmin: ------[ END ]------
+temp32900
+<6>[25832.314966] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25832.316806] glitchmin: | ,slave,PASS
+<6>[25834.324402] glitchmin: ------[ END ]------
+temp32900
+<6>[25840.604940] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25840.606681] glitchmin: | ,slave,FAIL
+<6>[25840.606752] glitchmin: | ,slave,EXPT_TEST,0,c44dc735f6682a261a0b8545a62dd13df4c646a5ede482cef858925baa1811fa0284766b3d1d2b4d6893df4d9c045efe3e84d8c5d03631b25420f1231d8211e2
+<6>[25840.606812] glitchmin: | ,slave,EXPT_TEST,1,322eb7eb524da6c1e8fb4c3ae4a8f5ca13d1e0591f5c64e8e711b3726215cec59ed0ebc6bb042b917d44528887915fdf764df691d183e16f31ba1ed94c84b476
+<6>[25840.606880] glitchmin: | ,slave,EXPT_TEST,2,ac5148e463e85551022021763af35a64ddf105c1530ef3fcf7e54233e5d3a4747bbb17328a63e6e3384ac25ee80054bd566855e2eb59a2fd168d3643e44851ac
+<6>[25840.606943] glitchmin: | ,slave,EXPT_TEST,3,f0d118fb03c73ebc099b4add59c39367d6c91f498d8d607af2e57cc73e3b5718435a81123f080267726a2a9c1cc94b9c6bb6817427b85d8c670f9a53a777511b
+<6>[25842.614391] glitchmin: ------[ END ]------
+temp32800
+<6>[25848.904954] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25848.906712] glitchmin: | ,slave,PASS
+<6>[25850.914370] glitchmin: ------[ END ]------
+temp32700
+<6>[25857.204942] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25857.206695] glitchmin: | ,slave,PASS
+<6>[25859.214382] glitchmin: ------[ END ]------
+temp32600
+<6>[25865.504950] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25865.506791] glitchmin: | ,slave,PASS
+<6>[25867.514392] glitchmin: ------[ END ]------
+temp32500
+<6>[25873.804954] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25873.807152] glitchmin: | ,slave,PASS
+<6>[25875.814381] glitchmin: ------[ END ]------
+temp32400
+<6>[25882.104950] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25882.106834] glitchmin: | ,slave,PASS
+<6>[25884.114388] glitchmin: ------[ END ]------
+temp32400
+<6>[25890.404922] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25890.406802] glitchmin: | ,slave,PASS
+<6>[25892.414378] glitchmin: ------[ END ]------
+temp32400
+<6>[25898.704923] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25898.706675] glitchmin: | ,slave,PASS
+<6>[25900.714387] glitchmin: ------[ END ]------
+temp32200
+<6>[25907.004959] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25907.006776] glitchmin: | ,slave,PASS
+<6>[25909.014343] glitchmin: ------[ END ]------
+temp32100
+<6>[25915.304949] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25915.306718] glitchmin: | ,slave,PASS
+<6>[25917.314377] glitchmin: ------[ END ]------
+temp32000
+<6>[25923.594933] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25923.596714] glitchmin: | ,slave,PASS
+<6>[25925.604409] glitchmin: ------[ END ]------
+temp31900
+<6>[25931.894931] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[25931.896400] glitchmin: | ,slave,PASS
+<6>[25933.904380] glitchmin: ------[ END ]------
+
+
+
+
+
+
+
+
+
+temp39000
+<6>[ 2481.395156] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2481.397012] glitchmin: | ,slave,PASS
+<6>[ 2483.404572] glitchmin: ------[ END ]------
+temp38900
+<6>[ 2489.695128] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2489.696968] glitchmin: | ,slave,PASS
+<6>[ 2491.704576] glitchmin: ------[ END ]------
+temp38500
+<6>[ 2497.985080] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2497.986900] glitchmin: | ,slave,PASS
+<6>[ 2499.994598] glitchmin: ------[ END ]------
+temp38200
+<6>[ 2506.275134] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2506.276943] glitchmin: | ,slave,PASS
+<6>[ 2508.284583] glitchmin: ------[ END ]------
+temp37800
+<6>[ 2514.615129] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2514.616943] glitchmin: | ,slave,PASS
+<6>[ 2516.624569] glitchmin: ------[ END ]------
+temp37500
+<6>[ 2522.915131] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2522.916980] glitchmin: | ,slave,PASS
+<6>[ 2524.924567] glitchmin: ------[ END ]------
+temp37200
+<6>[ 2531.215163] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2531.217026] glitchmin: | ,slave,PASS
+<6>[ 2533.224773] glitchmin: ------[ END ]------
+temp36900
+<6>[ 2539.514979] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2539.516796] glitchmin: | ,slave,PASS
+<6>[ 2541.524573] glitchmin: ------[ END ]------
+temp36700
+<6>[ 2547.815090] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2547.816917] glitchmin: | ,slave,PASS
+<6>[ 2549.824576] glitchmin: ------[ END ]------
+temp36400
+<6>[ 2556.115153] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2556.116956] glitchmin: | ,slave,PASS
+<6>[ 2558.124570] glitchmin: ------[ END ]------
+temp36100
+<6>[ 2564.405131] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2564.406944] glitchmin: | ,slave,PASS
+<6>[ 2566.414579] glitchmin: ------[ END ]------
+temp35900
+<6>[ 2572.705057] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2572.706863] glitchmin: | ,slave,PASS
+<6>[ 2574.714579] glitchmin: ------[ END ]------
+temp35700
+<6>[ 2581.005034] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2581.006579] glitchmin: | ,slave,PASS
+<6>[ 2583.014571] glitchmin: ------[ END ]------
+temp35500
+<6>[ 2589.305119] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2589.306948] glitchmin: | ,slave,PASS
+<6>[ 2591.314604] glitchmin: ------[ END ]------
+temp35300
+<6>[ 2597.595095] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2597.596940] glitchmin: | ,slave,PASS
+<6>[ 2599.604572] glitchmin: ------[ END ]------
+temp35200
+<6>[ 2605.885141] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2605.887035] glitchmin: | ,slave,PASS
+<6>[ 2607.894583] glitchmin: ------[ END ]------
+temp35000
+<6>[ 2614.175131] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2614.176929] glitchmin: | ,slave,PASS
+<6>[ 2616.184590] glitchmin: ------[ END ]------
+temp34900
+<6>[ 2622.475141] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2622.476942] glitchmin: | ,slave,PASS
+<6>[ 2624.484577] glitchmin: ------[ END ]------
+temp34700
+<6>[ 2630.774960] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2630.776784] glitchmin: | ,slave,PASS
+<6>[ 2632.784563] glitchmin: ------[ END ]------
+temp34500
+<6>[ 2639.065183] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2639.067110] glitchmin: | ,slave,PASS
+<6>[ 2641.074593] glitchmin: ------[ END ]------
+temp34400
+<6>[ 2647.395098] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2647.396905] glitchmin: | ,slave,PASS
+<6>[ 2649.404584] glitchmin: ------[ END ]------
+temp34200
+<6>[ 2655.685122] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2655.686946] glitchmin: | ,slave,PASS
+<6>[ 2657.694572] glitchmin: ------[ END ]------
+temp34100
+<6>[ 2663.985163] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2663.987020] glitchmin: | ,slave,PASS
+<6>[ 2665.994566] glitchmin: ------[ END ]------
+temp34000
+<6>[ 2672.285117] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2672.286923] glitchmin: | ,slave,PASS
+<6>[ 2674.294577] glitchmin: ------[ END ]------
+temp33800
+<6>[ 2680.585118] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2680.586920] glitchmin: | ,slave,PASS
+<6>[ 2682.594571] glitchmin: ------[ END ]------
+temp33700
+<6>[ 2688.885119] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2688.886931] glitchmin: | ,slave,PASS
+<6>[ 2690.894572] glitchmin: ------[ END ]------
+temp33600
+<6>[ 2697.175081] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2697.176888] glitchmin: | ,slave,PASS
+<6>[ 2699.184572] glitchmin: ------[ END ]------
+temp33400
+<6>[ 2705.475128] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2705.476953] glitchmin: | ,slave,PASS
+<6>[ 2707.484572] glitchmin: ------[ END ]------
+temp33300
+<6>[ 2713.774819] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2713.775779] glitchmin: | ,slave,PASS
+<6>[ 2715.784559] glitchmin: ------[ END ]------
+temp33200
+<6>[ 2722.074985] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2722.076810] glitchmin: | ,slave,PASS
+<6>[ 2724.084573] glitchmin: ------[ END ]------
+temp33100
+<6>[ 2730.385117] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2730.386914] glitchmin: | ,slave,PASS
+<6>[ 2732.394582] glitchmin: ------[ END ]------
+temp32900
+<6>[ 2738.685105] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2738.686913] glitchmin: | ,slave,PASS
+<6>[ 2740.694592] glitchmin: ------[ END ]------
+temp32800
+<6>[ 2746.975127] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2746.976954] glitchmin: | ,slave,PASS
+<6>[ 2748.984627] glitchmin: ------[ END ]------
+temp32700
+<6>[ 2755.265160] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2755.266972] glitchmin: | ,slave,PASS
+<6>[ 2757.274563] glitchmin: ------[ END ]------
+temp32600
+<6>[ 2763.565015] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2763.566838] glitchmin: | ,slave,PASS
+<6>[ 2765.574575] glitchmin: ------[ END ]------
+temp32500
+<6>[ 2771.855114] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2771.856939] glitchmin: | ,slave,PASS
+<6>[ 2773.864838] glitchmin: ------[ END ]------
+temp32400
+<6>[ 2780.145127] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2780.146970] glitchmin: | ,slave,PASS
+<6>[ 2782.154594] glitchmin: ------[ END ]------
+temp32400
+<6>[ 2788.445138] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2788.447012] glitchmin: | ,slave,PASS
+<6>[ 2790.454568] glitchmin: ------[ END ]------
+temp32200
+<6>[ 2796.735121] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2796.736938] glitchmin: | ,slave,PASS
+<6>[ 2798.744575] glitchmin: ------[ END ]------
+temp32100
+<6>[ 2805.035134] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2805.036948] glitchmin: | ,slave,PASS
+<6>[ 2807.044586] glitchmin: ------[ END ]------
+temp32000
+<6>[ 2813.325123] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2813.326927] glitchmin: | ,slave,PASS
+<6>[ 2815.334591] glitchmin: ------[ END ]------
+temp31900
+<6>[ 2821.615038] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2821.616843] glitchmin: | ,slave,PASS
+<6>[ 2823.624537] glitchmin: ------[ END ]------
+temp31800
+<6>[ 2829.905119] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2829.906950] glitchmin: | ,slave,PASS
+<6>[ 2831.914580] glitchmin: ------[ END ]------
+temp31700
+<6>[ 2838.195129] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2838.196975] glitchmin: | ,slave,PASS
+<6>[ 2840.204566] glitchmin: ------[ END ]------
+temp31600
+<6>[ 2846.485138] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2846.486976] glitchmin: | ,slave,PASS
+<6>[ 2848.494566] glitchmin: ------[ END ]------
+temp31500
+<6>[ 2854.795121] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2854.796939] glitchmin: | ,slave,PASS
+<6>[ 2856.804577] glitchmin: ------[ END ]------
+temp31400
+<6>[ 2863.095653] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2863.097451] glitchmin: | ,slave,PASS
+<6>[ 2865.104585] glitchmin: ------[ END ]------
+temp31300
+<6>[ 2871.405191] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2871.406102] glitchmin: | ,slave,PASS
+<6>[ 2873.414574] glitchmin: ------[ END ]------
+temp31300
+<6>[ 2879.705134] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2879.706973] glitchmin: | ,slave,PASS
+<6>[ 2881.714591] glitchmin: ------[ END ]------
+temp31100
+<6>[ 2887.995116] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2887.996955] glitchmin: | ,slave,PASS
+<6>[ 2890.004593] glitchmin: ------[ END ]------
+
+
+
+
+
+
+
+
+
+temp39000
+<6>[ 2077.354853] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2077.356388] glitchmin: | ,slave,PASS
+<6>[ 2079.364350] glitchmin: ------[ END ]------
+temp38900
+<6>[ 2085.644721] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2085.646634] glitchmin: | ,slave,PASS
+<6>[ 2087.654390] glitchmin: ------[ END ]------
+temp38700
+<6>[ 2093.934955] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2093.936817] glitchmin: | ,slave,PASS
+<6>[ 2095.944388] glitchmin: ------[ END ]------
+temp38400
+<6>[ 2102.224966] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+<6>[ 2102.226785] glitchmin: | ,slave,PASS
+<6>[ 2104.234396] glitchmin: ------[ END ]------
+temp38100
+<6>[ 2110.524955] glitchmin: |---- ,ITER-00,0xd0,5,8000,0,1055000
+
+

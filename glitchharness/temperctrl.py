@@ -58,7 +58,7 @@ class ThreadAdbCmd(object):
         self.thrd.start()
         self.thrd.join(self.timeout)
         if self.thrd.is_alive():
-            adb_exec_cmd_one("ZX1G42BS93", 'pkill -9 -f /data/local/tmp/dofever-v7a')
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
             self.is_timeout = True
             if not is_quiet:
                 print '[+] ERROR: adb cmd has timed out! Force-killing adb'
