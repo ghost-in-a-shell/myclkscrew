@@ -1,0 +1,3 @@
+require board=shamu
+require version-bootloader=moto-apq8084-71.15
+require version-baseband=D4.01-9625-05.32+FSG-9625-02.109
