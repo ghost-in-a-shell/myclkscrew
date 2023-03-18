@@ -4,13 +4,15 @@ import commands
 import threading
 import subprocess
 import sys
+import glitchutils as gu
 
 def regulate_temperature(min_temp, max_temp, sleep_time=5):
 	""" @TODO: To implement
 	    - need to compile ubench for new phone
 	"""
+	gu.presets()
 	curr_temp = get_temperature()
-
+	
 	# Kill all remnants of the tool first
 	adb_exec_cmd_one("ZX1G42BS93", 'pkill -9 -f /data/local/tmp/dofever-v7a')
 	time.sleep(1)
@@ -18,8 +20,10 @@ def regulate_temperature(min_temp, max_temp, sleep_time=5):
 	# Temperature too low
 	if curr_temp < min_temp:
 	    while curr_temp < min_temp:
+		gu.presets()
 		t = ThreadAdbCmd('adb', "ZX1G42BS93", '/data/local/tmp/dofever-v7a', timeout=sleep_time)
 		t.run(is_quiet=True)
+		gu.presets()
 		curr_temp = get_temperature()
 		print '[-]       Ramping up temperature: curr_temp=%d' % curr_temp
 		if curr_temp == 0:
