@@ -23,6 +23,9 @@ def regulate_temperature(min_temp, max_temp, sleep_time=5):
 		gu.presets()
 		t = ThreadAdbCmd('adb', "ZX1G42BS93", '/data/local/tmp/dofever-v7a', timeout=sleep_time)
 		t.run(is_quiet=True)
+		t.run(is_quiet=True)
+		t.run(is_quiet=True)
+		t.run(is_quiet=True)
 		gu.presets()
 		curr_temp = get_temperature()
 		print '[-]       Ramping up temperature: curr_temp=%d' % curr_temp
@@ -131,9 +134,10 @@ def os_exec_commands(cmd_str):
 
 def get_temperature():
         #temp = run_adb_and_get_output('cat /sys/devices/virtual/thermal/thermal_zone0/temp')
+	gu.presets()
 	_,temp = adb_exec_cmd_one("ZX1G42BS93", 'cat /sys/devices/virtual/thermal/thermal_zone0/temp', 'adb')
 	#print temp
-	if not temp:
+	if temp is None:
 		temp=0
 	else:
 		temp=int(temp)

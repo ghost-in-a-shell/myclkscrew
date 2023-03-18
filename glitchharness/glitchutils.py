@@ -8,6 +8,7 @@ import time
 device_id='ZX1G42BS93'
 log_filename='exp_log'
 
+
 #functions
 def os_exec_subprocess(c_lst):
     p = subprocess.Popen(c_lst, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -64,6 +65,7 @@ def presets(quiet=True):
 
 def fault_handler():
 	print '[+] FAULT_HANDLER: checking device status'
+	rebootflag=False
 	while True:
 		ret, s_out, s_err = os_exec_subprocess(['adb', 'devices'])
 		#print s_out
@@ -71,9 +73,11 @@ def fault_handler():
 			#wait
 			print '		[-] WAITING: waiting for the device to reboot'
 			time.sleep(10)
+			rebootflag=True
 		elif 'unauthorized' in s_out:
 			print '		[-] WAITING: waiting for the device to reboot'
 			time.sleep(10)
+			rebootflag=True
 		elif 'offline' 	in s_out:
 			print '		[-] OFFLINE: reconnecting device'
 			os.system('sudo chmod 777 /sys/bus/usb/drivers/usb/unbind')
@@ -81,8 +85,14 @@ def fault_handler():
 			time.sleep(1)
 			os.system('sudo chmod 777 /sys/bus/usb/drivers/usb/bind')
 			os.system('sudo echo \'1-12.4\' > /sys/bus/usb/drivers/usb/bind')
-			time.sleep(1)			
+			time.sleep(1)	
+			rebootflag=True
+			write_log(log_filename,'reboot\n\n\nreboot\n\n\n')		
 		else:
 			print '		[-] ALIVE: device is ready!!!'
 			presets()
+			if rebootflag:
+				print '		[-] be kind to new device!'
+				rebootflag=False
+				time.sleep(30)
 			break
