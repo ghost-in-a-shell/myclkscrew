@@ -23,9 +23,6 @@ def regulate_temperature(min_temp, max_temp, sleep_time=5):
 		gu.presets()
 		t = ThreadAdbCmd('adb', "ZX1G42BS93", '/data/local/tmp/dofever-v7a', timeout=sleep_time)
 		t.run(is_quiet=True)
-		t.run(is_quiet=True)
-		t.run(is_quiet=True)
-		t.run(is_quiet=True)
 		gu.presets()
 		curr_temp = get_temperature()
 		print '[-]       Ramping up temperature: curr_temp=%d' % curr_temp
@@ -55,6 +52,13 @@ class ThreadAdbCmd(object):
         self.timeout = timeout
         self.adbcmd = adbcmd
         self.is_timeout = False
+	self.is_timeout2 = False
+	self.is_timeout3 = False
+	self.is_timeout4 = False
+	self.is_timeout5 = False
+	self.is_timeout6 = False
+	self.is_timeout7 = False
+	self.is_timeout8 = False
         self.output = ''
 
     def run(self, is_quiet=False):
@@ -62,11 +66,74 @@ class ThreadAdbCmd(object):
            _, self.output = adb_exec_cmd_one(self.device_id, self.adbcmd, self.pname)
         
         self.thrd = threading.Thread(target=target)
+	self.thrd2 = threading.Thread(target=target)
+	self.thrd3 = threading.Thread(target=target)
+	self.thrd4 = threading.Thread(target=target)
+	self.thrd5 = threading.Thread(target=target)
+	self.thrd6 = threading.Thread(target=target)
+	self.thrd7 = threading.Thread(target=target)
+	self.thrd8 = threading.Thread(target=target)
         self.thrd.start()
+	self.thrd2.start()
+	self.thrd3.start()
+	self.thrd4.start()
+	self.thrd5.start()
+	self.thrd6.start()
+	self.thrd7.start()
+	self.thrd8.start()
         self.thrd.join(self.timeout)
+	self.thrd2.join(self.timeout)
+	self.thrd3.join(self.timeout)
+	self.thrd4.join(self.timeout)
+	self.thrd5.join(self.timeout)
+	self.thrd6.join(self.timeout)
+	self.thrd7.join(self.timeout)
+	self.thrd8.join(self.timeout)
         if self.thrd.is_alive():
             os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
             self.is_timeout = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd2.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout2 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd3.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout3 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd4.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout4 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd5.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout5 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd6.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout6 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd7.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout7 = True
+            if not is_quiet:
+                print '[+] ERROR: adb cmd has timed out! Force-killing adb'
+                print '[-]      (%s)' % self.adbcmd
+	if self.thrd8.is_alive():
+            os.system('adb shell su -c \'pkill -9 -f /data/local/tmp/dofever-v7a\'')
+            self.is_timeout8 = True
             if not is_quiet:
                 print '[+] ERROR: adb cmd has timed out! Force-killing adb'
                 print '[-]      (%s)' % self.adbcmd
@@ -133,7 +200,6 @@ def os_exec_commands(cmd_str):
     print '[-]       (%s)' % cmd_str
 
 def get_temperature():
-        #temp = run_adb_and_get_output('cat /sys/devices/virtual/thermal/thermal_zone0/temp')
 	gu.presets()
 	_,temp = adb_exec_cmd_one("ZX1G42BS93", 'cat /sys/devices/virtual/thermal/thermal_zone0/temp', 'adb')
 	#print temp
@@ -144,15 +210,6 @@ def get_temperature():
 	
         return temp
 
-def run_adb_and_get_output(cmdstr, is_output_string=False):
-        t = ThreadAdbCmd('adb', "ZX1G42BS93", cmdstr)
-        t.run()
-        output = t.output
-        if not is_output_string:
-            if not output or not output.isdigit():
-                return 0
-            return int(output)
-        return output
 
 def force_kill_os(pname):
     _, cnt, _ = os_exec_subprocess(['pkill', '-c', '-9', '-f', pname])

@@ -95,4 +95,5 @@ def fault_handler():
 				print '		[-] be kind to new device!'
 				rebootflag=False
 				time.sleep(30)
+				fault_handler()
 			break
