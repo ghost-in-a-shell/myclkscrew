@@ -11,7 +11,7 @@
 
 #define CPU_MAIN    0
 #define CPU_GLITCH  1
-#define CPU_SLAVE   4
+#define CPU_SLAVE   2
 
 static inline double workload_complex_math_local(void)
 {
