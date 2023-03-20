@@ -1,7 +1,7 @@
-list1=[1,2,3]
-list2=[4,5,6,7,8]
-list3=[9]
-list4=[10,12]
+list1=['0xd0','0xd8','0xe0']
+list2=['5']
+list3=['7600','7800','8000','8200','8400','8600','8800']
+list4=[40000]
 
 l1=len(list1)
 l2=len(list2)
@@ -19,6 +19,6 @@ for i1 in list1:
 				res.append([i1,i2,i3,i4])
 
 print res
-with open('paralist','w') as list:
+with open('paralist2','w+') as list:
 	list.write(str(res))
 	

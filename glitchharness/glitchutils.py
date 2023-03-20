@@ -6,7 +6,7 @@ import time
 
 #const
 device_id='ZX1G42BS93'
-log_filename='exp_log'
+log_filename='exp_log_multipara1'
 
 
 #functions
@@ -94,6 +94,6 @@ def fault_handler():
 			if rebootflag:
 				print '		[-] be kind to new device!'
 				rebootflag=False
-				time.sleep(30)
+				time.sleep(15)
 				fault_handler()
 			break

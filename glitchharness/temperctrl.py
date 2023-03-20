@@ -10,6 +10,7 @@ def regulate_temperature(min_temp, max_temp, sleep_time=5):
 	""" @TODO: To implement
 	    - need to compile ubench for new phone
 	"""
+	gu.fault_handler()
 	gu.presets()
 	curr_temp = get_temperature()
 	
@@ -20,10 +21,10 @@ def regulate_temperature(min_temp, max_temp, sleep_time=5):
 	# Temperature too low
 	if curr_temp < min_temp:
 	    while curr_temp < min_temp:
+		gu.fault_handler()
 		gu.presets()
 		t = ThreadAdbCmd('adb', "ZX1G42BS93", '/data/local/tmp/dofever-v7a', timeout=sleep_time)
 		t.run(is_quiet=True)
-		gu.presets()
 		curr_temp = get_temperature()
 		print '[-]       Ramping up temperature: curr_temp=%d' % curr_temp
 		if curr_temp == 0:
@@ -200,7 +201,9 @@ def os_exec_commands(cmd_str):
     print '[-]       (%s)' % cmd_str
 
 def get_temperature():
+	gu.fault_handler()
 	gu.presets()
+	
 	_,temp = adb_exec_cmd_one("ZX1G42BS93", 'cat /sys/devices/virtual/thermal/thermal_zone0/temp', 'adb')
 	#print temp
 	if temp is None:
